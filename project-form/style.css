@@ -1,0 +1,139 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    padding: 1rem;
+    background:rgb(213, 249, 213);
+}
+.form-container{
+    margin: auto;
+    width: 50%;
+    height: 700px;
+    background: rgb(254, 254, 245);
+    border-radius: 10px;
+}
+.form-content{
+    margin: auto;
+    width: 95%;
+    height: 120%;
+    /* background: #7db0fb; */
+}
+.a {
+    width: 50%;
+    height: 50%;
+    /* background: orange; */
+    float: left;
+}
+.b{
+        width: 100%;
+        height: 50%;
+        /* background: orange; */
+        float: left;
+}
+.query-type{
+    width: 50%;
+    height: 50%;
+    /* background: orange; */
+}
+.b .query{
+    width: 45%;
+}
+.a p{
+    width: 30%;
+}
+input[type="text"]{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   padding: 0.7rem 0.9rem;
+   width: 90%;
+}
+input[type="email"]{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   padding: 0.7rem 0.9rem;
+   width: 95%;
+}
+input[type='text']:focus,
+input[type='email']:focus
+{
+    border-color: #7db0fb;
+    outline: 0;
+    box-shadow: 0 0 0 4px rgba(24,117,255,0.25);
+}
+.mes{
+    height: 90px;
+}
+.query-type{
+    width: 50%;
+}
+button{
+    background:rgb(5, 89, 65);
+    color:#fff;
+    border: 0;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    outline:0;
+    margin-top: 20px;
+    width: 99%;
+    font-weight: 700;
+    height: 40px;    
+}
+.form-group{
+    margin-top: 20px;
+}
+.form-group1{
+    padding-top: 10px;
+    /* background:yellow; */
+    width: 95%;
+    height: 100px;
+    clear: both;    
+}
+.check-box{
+    width: 99%;
+    height: 70%;
+    margin-top: 85px;
+    /* background:red ; */
+    clear: both;
+}
+.radio{
+    position: absolute;
+    left:419px;
+    top:387px;
+}
+.radio1{
+    position: absolute;
+    left:765px;
+    top:387px;
+}
+.message{
+    width: 95%;
+    height: 100px;
+    /* background: green; */
+    clear: both;
+    padding-top: 20px;
+}
+::placeholder{
+    color: black;
+    padding: 10px;
+}
+@media (max-width:1200px) {
+    .a{
+        width: 100%;
+    }
+    .form-container{
+        height: 850px;
+    }
+    .radio{
+        position: absolute;
+    left:227px;
+    top:493px; 
+    }
+    .radio1{
+        position: absolute;
+        left:226px;
+        top:543px; 
+    }
+    .b .query{
+        margin-top: 10px;
+        width: 90%;
+    }    
+}
