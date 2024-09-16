@@ -30,12 +30,12 @@ body{
         float: left;
 }
 .query-type{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     /* background: orange; */
 }
 .b .query{
-    width: 45%;
+    width: 50%;
 }
 .a p{
     width: 30%;
@@ -62,9 +62,7 @@ input[type='email']:focus
 .mes{
     height: 90px;
 }
-.query-type{
-    width: 50%;
-}
+
 button{
     background:rgb(5, 89, 65);
     color:#fff;
@@ -90,19 +88,9 @@ button{
 .check-box{
     width: 99%;
     height: 70%;
-    margin-top: 85px;
+    margin-top: 100px;
     /* background:red ; */
     clear: both;
-}
-.radio{
-    position: absolute;
-    left:419px;
-    top:387px;
-}
-.radio1{
-    position: absolute;
-    left:765px;
-    top:387px;
 }
 .message{
     width: 95%;
@@ -122,18 +110,24 @@ button{
     .form-container{
         height: 850px;
     }
-    .radio{
-        position: absolute;
-    left:227px;
-    top:493px; 
-    }
-    .radio1{
-        position: absolute;
-        left:226px;
-        top:543px; 
-    }
+    
     .b .query{
         margin-top: 10px;
         width: 90%;
     }    
 }
+@media (min-width:420px) {
+    .form-container{
+        width: 80%;
+    }
+    .b{
+        width: 50%;
+    }
+}
+@media (min-width:720px) {
+    .b{
+        width: 100%;
+    }
+}
+
+
